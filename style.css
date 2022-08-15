@@ -1,0 +1,105 @@
+body{
+    margin: 0;
+    padding:0;
+    background-color: #fff;
+    font-family: Snell Roundhand;
+}
+.navbar{
+    height: 80px;
+    background-color:#fff;
+    border-bottom: 1px solid #e5e5e5;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+}
+.logo{
+    height:100%;
+    width: 40%;
+    font-size:120%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(79, 189, 15);
+    font-style: italic;
+}
+.logo:hover{
+    text-decoration: underline
+}
+.nav-links{
+    margin-left: 10%;
+    height:100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+span{
+    margin-right: 8%;
+}
+span a {
+    color: rgb(79, 189, 15);
+    font-size: 140%;
+}
+span a:hover{
+    text-decoration: underline;
+    color: rgb(238, 147, 77);
+
+}
+.orange-border{
+    height:.5vh;
+    width:100%;
+    background-color: rgb(238, 147, 77);
+}
+img{
+    height:85vh;
+    width: 70vw;
+    overflow: hidden
+}
+.slide{
+    width:90%;
+    height:80vh;
+    margin: 0 auto;
+}
+
+.slogan{
+    margin-top: 2%;
+    height:2vh;
+    text-align: center;
+    padding:3%;
+    text-decoration: underline   rgb(79, 189, 15);
+}
+.slogan h3{
+    font-size: 3.5rem;
+    color: rgb(79, 189, 15);
+    font-style: italic;
+    font-family: Snell Roundhand;
+}
+.Cbody{
+    margin-top: 2%;
+    height: 50vh;
+    margin-bottom: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    height: 40vh;
+    width:25vw;
+    margin-left:7%;
+    border-radius: 1rem;
+}
+.card:hover{
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.card img {
+    width:100%;
+    height:100%;
+}
+
+footer{
+    margin-top:1%;
+    height:10vh;
+    background-color:aquamarine;
+    width:100%;
+    text-align: center;
+}
